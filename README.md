@@ -94,8 +94,6 @@ def calculate_mse(model, x_data, y_data):
 train_mse = calculate_mse(trained_model, x_train, y_train)
 test_mse = calculate_mse(trained_model, x_test, y_test)
 
-print(f"Training MSE: {train_mse}")
-print(f"Testing MSE: {test_mse}")
 ```
 
 ## Результаты
